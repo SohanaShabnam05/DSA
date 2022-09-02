@@ -38,20 +38,20 @@ void Display(struct Node *p)
 
 void RDisplay(struct Node *p)
 {
- if(p!=NULL)
- {
- RDisplay(p->next);
- printf("%d ",p->data);
-
- }
+ 
+    if(p!=NULL)
+        {
+            RDisplay(p->next);
+            printf("%d ",p->data);
+        }
 }
 int main()
 {
- struct Node *temp;
- int A[]={3,5,7,10,25,8,32,2};
- create(A,8);
+    struct Node *temp;
+    int A[]={3,5,7,10,25,8,32,2};
+    create(A,8);
 
- Display(first);
+    Display(first);
 
  return 0;
 }
