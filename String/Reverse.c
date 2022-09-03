@@ -15,6 +15,8 @@ int main(){
         B[i]=A[i];
     }
     B[j]='\0';
+    
     printf("%s", B);
+
     return 0;
 }
