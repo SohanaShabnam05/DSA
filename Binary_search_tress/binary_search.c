@@ -137,7 +137,7 @@ struct Node *Delete(struct Node *p, int key)
     {
         if(Height(p->lchild) > Height(p->rchild))
         {
-            q=Inpre(p->lchild);
+            q=InPre(p->lchild);
 
         }
     }
